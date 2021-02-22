@@ -1,5 +1,6 @@
 <?php
 
+use App\Teacher;
 use Illuminate\Database\Seeder;
 
 class TeacherSeeder extends Seeder
@@ -14,22 +15,22 @@ class TeacherSeeder extends Seeder
       $teacherList = [
         [
           'name' => 'Ottavio',
-          'lastName' => 'Fogliata'
+          'lastName' => 'Fogliata',
           'materia' => 'Programmazione'
         ],
         [
           'name' => 'Carmelo',
-          'lastName' => 'Pinguino'
+          'lastName' => 'Pinguino',
           'materia' => 'Programmazione'
         ],
         [
           'name' => 'Magica',
-          'lastName' => 'Emi'
-          'materia' => 'Magia'
+          'lastName' => 'Emi',
+          'materia' => 'Magia',
         ],
         [
           'name' => 'Luigi',
-          'lastName' => 'De Amicis'
+          'lastName' => 'De Amicis',
           'materia' => 'Armi pesanti'
         ]
       ];

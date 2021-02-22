@@ -1,5 +1,6 @@
 <?php
 
+use App\Student;
 use Illuminate\Database\Seeder;
 
 class StudentSeeder extends Seeder
@@ -14,7 +15,7 @@ class StudentSeeder extends Seeder
        $studentsList = config('students');
 
        foreach ($studentsList as $stud) {
-         $newStud = new Teacher();
+         $newStud = new Student();
          $newStud->name = $stud['name'];
          $newStud->lastName = $stud['lastName'];
          $newStud->mediaVoti = $stud['mediaVoti'];
